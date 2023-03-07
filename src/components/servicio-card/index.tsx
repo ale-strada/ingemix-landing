@@ -1,3 +1,4 @@
+import { useRouter } from "next/router"
 import styled from "styled-components"
 
 const Container = styled.div`
@@ -41,7 +42,15 @@ const TextoLink = styled(Texto)`
 max-width:100%;
 `
 export function ServicioCard(props:any){
+    const router = useRouter()
 
+    const handleClick = () => {
+        const element = document.getElementById(props.id);
+        router.push("/soluciones").then(()=>{
+            const element = document.getElementById(props.id);
+            element?.scrollIntoView({ behavior: 'smooth' })
+        })
+    };
 
     return <Container>
         <NroContainer>
@@ -49,6 +58,6 @@ export function ServicioCard(props:any){
         </NroContainer>
         <Titulo>{props.titulo}</Titulo>
         <Texto>Más sobre el servicio</Texto>
-        <a style={{textDecoration:"none"}} href={props.link}><TextoLink>Click Aquí</TextoLink></a>
+        <TextoLink style={{cursor:"pointer"}} onClick={handleClick} >Click Aquí</TextoLink>
     </Container>
 }
