@@ -21,5 +21,5 @@ width:20%;
 height:30px;
 display:flex;
 align-items: center;
-justify-content: space-evenly;
+justify-content: center;
 `
