@@ -13,9 +13,9 @@ export function Footer(){
     return <FooterContainer>
         <InfoContainer>
             <Information style={{alignItems:"start"}}>
-                <Text500>SOMOS</Text500>
-                <Text500 onClick={handleClickScrollServicios}>SERVICIOS</Text500>
-                <Text500 onClick={handleClickScrollContacto}>CONTACTO</Text500>
+                <Text500 style={{cursor:"pointer"}} >SOMOS</Text500>
+                <Text500 style={{cursor:"pointer"}}  onClick={handleClickScrollServicios}>SERVICIOS</Text500>
+                <Text500 style={{cursor:"pointer"}}  onClick={handleClickScrollContacto}>CONTACTO</Text500>
             </Information>
             <Information style={{alignItems:"start"}}>
                 <Text400>PILAR</Text400>
@@ -40,7 +40,7 @@ export function Footer(){
                     <a href="http://www.facebook.com/IngemixArg">
                         <img style={{width:"40px", height:"40px"}} src="/facebook-blanco.png" alt="" />
                     </a>
-                    <a href="https://www.instagram.com/ingemix_arg/">
+                    <a  href="https://www.instagram.com/ingemix_arg/">
                         <img style={{width:"40px", height:"40px"}}  src="/insta-blanco.png" alt="" />
                     </a>
                 </LogosRedesContainer>
