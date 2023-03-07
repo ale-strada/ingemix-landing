@@ -5,7 +5,7 @@ width:90%;
 height:600px;
 //background-color: #5d5959;
 background-image:url("/fondo-servicios.png");
-margin: 0 auto;
+margin: 30px auto;
 padding: 75px;
 `
 export const ServiciosTitle = styled.h2`

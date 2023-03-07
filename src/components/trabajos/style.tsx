@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const TrabajosContainer = styled.div`
-width:90%;
+width:100%;
 height:600px;
 background-color: #d4d2d2;
-margin: 30px auto;
+margin: 0 auto;
 padding: 75px;
 `
 export const TrabajosTitulo = styled.h3`

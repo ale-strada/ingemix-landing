@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ReferenciasContainer = styled.div`
-width:90%;
+width:100%;
 height:300px;
 background-color: #757171;
 margin: 0 auto;
