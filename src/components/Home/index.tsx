@@ -1,4 +1,6 @@
 import { Header } from "@/components/header";
+import { Footer } from "../footer";
+import { Referencias } from "../referencias";
 import { Servicios } from "../servicios";
 import { Trabajos } from "../trabajos";
 
@@ -10,6 +12,7 @@ export function HomePage(){
         </div>
         <Servicios/>
         <Trabajos/>
-        
+        <Referencias/>
+        <Footer/>
     </div>
 }

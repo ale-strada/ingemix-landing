@@ -3,11 +3,10 @@ import styled from "styled-components";
 export const ServiciosContainer = styled.div`
 width:90%;
 height:600px;
-background-color: #5d5959;
+//background-color: #5d5959;
 background-image:url("/fondo-servicios.png");
 margin: 0 auto;
 padding: 75px;
-opacity:0.8;
 `
 export const ServiciosTitle = styled.h2`
 font-family: "Roboto";
