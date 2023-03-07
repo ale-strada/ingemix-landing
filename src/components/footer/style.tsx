@@ -28,12 +28,14 @@ color: #FFF;
 font-weight: 400;
 text-align:left;
 margin-bottom:10px;
+font-size:15px;
 `
 export const Text400P = styled.p`
 font-family: 'Roboto';
 color: #FFF;
 font-weight: 400;
 text-align:left;
+font-size:15px;
 `
 export const Text500 = styled.h3`
 font-family: 'Roboto';
@@ -46,4 +48,5 @@ display: flex;
 align-items: center;
 justify-content: space-evenly;
 width:70%;
+font-size:15px;
 `

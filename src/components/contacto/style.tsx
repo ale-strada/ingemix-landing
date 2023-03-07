@@ -14,10 +14,10 @@ align-items: center;
 `
 export const Text400Negro = styled(Text400)`
 color: #000;
-font-size:24px;
+font-size:18px;
 font-weight:600;
 `
 export const Text400PNegro = styled(Text400P)`
 color: #000;
-font-size:24px;
+font-size:18px;
 `
