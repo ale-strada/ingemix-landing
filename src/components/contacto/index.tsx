@@ -3,7 +3,7 @@ import { InfoContainer, Information, Text400, Text400P, Text500 } from "../foote
 import { ContactoContainer, Text400Negro, Text400PNegro } from "./style";
 
 export function Contacto(){
-    return<ContactoContainer>
+    return<ContactoContainer id="contacto">
         <div>
             <Information style={{alignItems:"start", marginTop:"30px"}}>
                 <Text400Negro>PILAR</Text400Negro>

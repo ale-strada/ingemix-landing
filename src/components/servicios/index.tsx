@@ -3,7 +3,7 @@ import { CardContainer, ServiciosContainer, ServiciosTitle } from "./style";
 
 
 export function Servicios(){
-    return <ServiciosContainer>
+    return <ServiciosContainer id="servicios">
         <ServiciosTitle>SOLUCIONES INTEGRALES</ServiciosTitle>
         <CardContainer>
             <ServicioCard numero="01" titulo="INGENIERIA" link="https://www.freepik.es/search?format=search&query=redes%20sociales"/>

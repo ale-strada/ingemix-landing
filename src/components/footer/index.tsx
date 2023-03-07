@@ -1,13 +1,21 @@
 import { FooterContainer, InfoContainer, Information, LogosRedesContainer, Text400, Text400P, Text500 } from "./style";
 
 export function Footer(){
+    const handleClickScrollServicios = () => {
+        const element = document.getElementById('servicios');
+        if (element) {element.scrollIntoView({ behavior: 'smooth' }); }
+    };
+    const handleClickScrollContacto = () => {
+        const element = document.getElementById('contacto');
+        if (element) {element.scrollIntoView({ behavior: 'smooth' }); }
+    };
+
     return <FooterContainer>
         <InfoContainer>
             <Information style={{alignItems:"start"}}>
                 <Text500>SOMOS</Text500>
-                <Text500>SERVICIOS</Text500>
-                <Text500>PRESUPUESTOS</Text500>
-                <Text500>CONTACTO</Text500>
+                <Text500 onClick={handleClickScrollServicios}>SERVICIOS</Text500>
+                <Text500 onClick={handleClickScrollContacto}>CONTACTO</Text500>
             </Information>
             <Information style={{alignItems:"start"}}>
                 <Text400>PILAR</Text400>

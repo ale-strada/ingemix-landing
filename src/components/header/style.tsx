@@ -16,6 +16,15 @@ display:flex;
 align-items: center;
 justify-content: space-evenly;
 `
+export const NavLinks = styled.p`
+cursor: pointer;
+font-family: "Roboto";
+color:grey;
+font-size:24px;
+:hover{
+    color:#000;
+}
+`
 export const RedesContainer = styled.div`
 width:20%;
 height:30px;
