@@ -29,6 +29,7 @@ const TextoHistoria = styled.p`
 font-family:"Roboto";
 color:#FFF;
 text-align: justify;
+font-size: 21px;
 `
 export default function Nosotros(){
     return <Layout>
