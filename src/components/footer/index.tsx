@@ -29,8 +29,12 @@ export function Footer(){
             </Information>
             <Information>
                 <LogosRedesContainer>
-                    <div style={{width:"30px", height:"30px", background:"black", borderRadius:"30px"}}></div>
-                    <div style={{width:"30px", height:"30px", background:"black", borderRadius:"30px"}}></div>
+                    <a href="http://www.facebook.com/IngemixArg">
+                        <img style={{width:"40px", height:"40px"}} src="/facebook-blanco.png" alt="" />
+                    </a>
+                    <a href="https://www.instagram.com/ingemix_arg/">
+                        <img style={{width:"40px", height:"40px"}}  src="/insta-blanco.png" alt="" />
+                    </a>
                 </LogosRedesContainer>
                 <div>
                     <a style={{textDecoration:"none"}} href="http://info@ingemix.com.ar"><Text400P>info@ingemix.com.ar</Text400P> </a>
