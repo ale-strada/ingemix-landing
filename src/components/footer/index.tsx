@@ -1,6 +1,8 @@
+import { useRouter } from "next/router";
 import { FooterContainer, InfoContainer, Information, LogosRedesContainer, Text400, Text400P, Text500 } from "./style";
 
 export function Footer(){
+    const router = useRouter()
     const handleClickScrollServicios = () => {
         const element = document.getElementById('servicios');
         if (element) {element.scrollIntoView({ behavior: 'smooth' }); }
@@ -13,7 +15,7 @@ export function Footer(){
     return <FooterContainer>
         <InfoContainer>
             <Information style={{alignItems:"start"}}>
-                <Text500 style={{cursor:"pointer"}} >SOMOS</Text500>
+                <Text500 style={{cursor:"pointer"}}  onClick={()=>{router.push("/nosotros")}}>SOMOS</Text500>
                 <Text500 style={{cursor:"pointer"}}  onClick={handleClickScrollServicios}>SERVICIOS</Text500>
                 <Text500 style={{cursor:"pointer"}}  onClick={handleClickScrollContacto}>CONTACTO</Text500>
             </Information>
