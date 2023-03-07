@@ -53,6 +53,6 @@ export function Footer(){
             <img style={{width:"200px", height:"50px"}} src="https://ingemix.com.ar/wp-content/uploads/2021/10/logohomh.jpg" alt="" />
             </Information>
         </InfoContainer>
-        <Text500 style={{padding:"15px"}}>TODOS LOS DERECHOS RESERVADOS | AÑO 2023</Text500>
+        <Text500 style={{padding:"15px", fontSize:"15px"}}>TODOS LOS DERECHOS RESERVADOS | AÑO 2023</Text500>
     </FooterContainer>
 }

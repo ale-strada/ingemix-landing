@@ -1,6 +1,9 @@
+import { useRouter } from "next/router";
 import { HeaderContainer, Nav, NavLinks, RedesContainer } from "./style";
 
 export function Header(){
+const router = useRouter()
+
 
     const handleClickScrollServicios = () => {
         const element = document.getElementById('servicios');
@@ -12,9 +15,9 @@ export function Header(){
     };
 
     return <HeaderContainer>
-        <img style={{width:"200px", height:"50px"}} src="https://ingemix.com.ar/wp-content/uploads/2021/10/logohomh.jpg" alt="" />
+        <img onClick={()=>{router.push("/")}} style={{width:"200px", height:"50px", cursor:"pointer"}} src="https://ingemix.com.ar/wp-content/uploads/2021/10/logohomh.jpg" alt="" />
         <Nav>
-            <NavLinks>SOMOS</NavLinks>
+            <NavLinks onClick={()=>{router.push("/nosotros")}}>SOMOS</NavLinks>
             <NavLinks onClick={handleClickScrollServicios}>SERVICIOS</NavLinks>
             <NavLinks onClick={handleClickScrollContacto}>CONTACTO</NavLinks>
         </Nav>

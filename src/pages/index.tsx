@@ -1,6 +1,5 @@
-import { HomePage } from '@/components/Home'
+import { HomePage } from '@/pages/home'
 import Head from 'next/head'
-
 
 export default function Home() {
   return (
