@@ -7,11 +7,21 @@ const router = useRouter()
 
     const handleClickScrollServicios = () => {
         const element = document.getElementById('servicios');
-        if (element) {element.scrollIntoView({ behavior: 'smooth' }); }
+        if (element){
+            element.scrollIntoView({ behavior: 'smooth' })
+        }else{ router.push("/").then(()=>{
+            const element = document.getElementById('servicios');
+            element?.scrollIntoView({ behavior: 'smooth' })
+        })}
     };
     const handleClickScrollContacto = () => {
         const element = document.getElementById('contacto');
-        if (element) {element.scrollIntoView({ behavior: 'smooth' }); }
+        if (element){
+            element.scrollIntoView({ behavior: 'smooth' }); 
+        }else{ router.push("/").then(()=>{
+            const element = document.getElementById('contacto');
+            element?.scrollIntoView({ behavior: 'smooth' }); 
+        })}
     };
 
     return <HeaderContainer>
