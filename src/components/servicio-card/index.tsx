@@ -23,14 +23,14 @@ const Numero = styled.h3`
 `
 const Titulo = styled.h3`
     font-family: 'Roboto';
-    font-size: 25px;
+    font-size: 21px;
     color: #fff;
     font-weight: 600;
     margin-top: 30px;
 `
 const Texto = styled.p`
     font-family: 'Roboto';
-    font-size: 24px;
+    font-size: 20px;
     color: #fff;
     font-weight: 400;
     margin-top: 30px;

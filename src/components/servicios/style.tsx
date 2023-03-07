@@ -10,7 +10,7 @@ padding: 75px;
 `
 export const ServiciosTitle = styled.h2`
 font-family: "Roboto";
-font-size: 40px;
+font-size: 35px;
 text-align: center;
 color: #ef842c;
 font-weight: 400;
