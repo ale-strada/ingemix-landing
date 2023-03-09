@@ -19,9 +19,10 @@ justify-content: center;
 `
 export const SolucionesTitleText = styled.h2`
 font-family: 'Roboto';
-color: #FFF;
+color:${props=>props.color || "#FFF "};
 font-size: 30px;
 margin-bottom: 0px;
+font-weight:600;
 `
 export const SolucionLeft = styled.div`
 grid-area: 2 / 1 / 3 / 2; 
