@@ -1,5 +1,19 @@
 import { SolucionesItem, SolucionesTitleText, SubpageImg } from "../../../ui/soluciones-style/style";
-import { Banner, CaracteristicasContainer, CaracteristicasItem, Icons, ImgMantenimientoWrap, MantenimientoContainer, PaqueteDeHorasContainer, PaqueteDeHorasPersonalIcon, PaqueteDeHorasPersonalText, PaqueteDeHorasServicioIcon, PaqueteDeHorasServicioText, PaqueteDeHorasTitle, TiposContainer, TiposTitleContainer } from "./style";
+import { 
+        Banner,
+        CaracteristicasContainer, 
+        CaracteristicasItem, 
+        Icons, 
+        ImgMantenimientoWrap, 
+        MantenimientoContainer, 
+        PaqueteDeHorasContainer, 
+        PaqueteDeHorasPersonalIcon, 
+        PaqueteDeHorasPersonalText, 
+        PaqueteDeHorasServicioIcon, 
+        PaqueteDeHorasServicioText, 
+        PaqueteDeHorasTitle, 
+        TiposContainer, 
+        TiposTitleContainer } from "./style";
 
 export function Mantenimiento(){
     return <MantenimientoContainer id="mantenimiento">

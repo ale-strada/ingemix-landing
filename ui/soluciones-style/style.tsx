@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const SolucionContainer = styled.div`
 width:80%;
+max-width:900px;
 margin: 20px auto;
 display: grid;
 grid-template-columns: repeat(2, 1fr);

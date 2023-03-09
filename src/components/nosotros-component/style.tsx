@@ -28,7 +28,7 @@ export const TextoHistoria = styled.p`
 font-family:"Roboto";
 color:#FFF;
 text-align: justify;
-font-size: 21px;
+font-size: 20px;
 `
 export const ImgsWrap = styled.div`
 width: 95%;
@@ -45,4 +45,8 @@ margin:10px 10px 10px 0;
 `
 export const ImgContainerR = styled(ImgContainerL)`
 margin: 10px 0 10px 10px;
+`
+export const Container = styled.div`
+max-width: 1000px;
+margin: 0 auto;
 `

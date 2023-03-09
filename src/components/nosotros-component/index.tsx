@@ -1,5 +1,6 @@
 import { SubpageImg } from "../../../ui/soluciones-style/style";
 import { 
+    Container,
     Historia, 
     ImgContainerL, 
     ImgContainerR, 
@@ -9,7 +10,7 @@ import {
     Title } from "../../components/nosotros-component/style";
 
 export default function NosotrosComponent(){
-    return <div>
+    return <Container>
         <Portada>
             <Title>NUESTRA HISTORIA</Title>
         </Portada>
@@ -40,5 +41,5 @@ export default function NosotrosComponent(){
         <ImgsWrap>
             <SubpageImg src="/img/carousel10.jpg"/>
         </ImgsWrap>
-    </div>
+    </Container>
 }

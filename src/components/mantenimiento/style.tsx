@@ -6,6 +6,7 @@ grid-template-columns: 0.8fr 1.2fr;
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 width:80%;
+max-width:900px;
 margin: 20px auto;
 gap:20px;
 `
@@ -45,7 +46,7 @@ grid-area: 3 / 2 / 4 / 3;
 display: grid;
 grid-template-columns: 0.5fr 1.5fr;
 grid-template-rows: repeat(3, 1fr);
-/* height: 200px; */
+max-height: 600px;
 gap: 10px;
 align-items: center;
 `
