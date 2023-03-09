@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SolucionContainer = styled.div`
-width:90%;
+width:80%;
 margin: 20px auto;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
@@ -45,7 +45,7 @@ object-fit: cover;
 `
 export const SolucionesItem = styled.li`
 font-family: 'Roboto';
-font-size: 13px;
+font-size: 15px;
 margin: 10px 10px 10px 20px;
 color:${props=>props.color}
 `

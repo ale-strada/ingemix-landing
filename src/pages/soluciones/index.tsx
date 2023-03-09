@@ -6,8 +6,8 @@ import { Montaje } from "@/components/montaje";
 
 export default function Soluciones(){
     return <Layout>
-        <Ingenieria/>
         <Construccion/>
+        <Ingenieria/>
         <Montaje/>
         <Mantenimiento/>
     </Layout>
