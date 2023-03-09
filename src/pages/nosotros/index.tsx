@@ -1,49 +1,27 @@
 import { Layout } from "@/components/layout";
-import styled from "styled-components";
+import { SubpageImg } from "../../../ui/soluciones-style/style";
+import { 
+    Historia, 
+    ImgContainerL, 
+    ImgContainerR, 
+    ImgsWrap, 
+    Portada, 
+    TextoHistoria, 
+    Title } from "./style";
 
-const Portada = styled.div`
-width:95%;
-height:250px;
-background-image:url("./nosotros.png");
-margin: 0 auto;
-display: flex;
-align-items: center;
-padding: 55px;
-`
-const Title = styled.h2`
-font-family:"Roboto";
-font-weight:500;
-color:#FFF;
-`
-const Historia = styled.div`
-width:95%;
-height:350px;
-background-color: #ef842c;
-margin: 10px auto;
-padding:70px 100px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-`
-const TextoHistoria = styled.p`
-font-family:"Roboto";
-color:#FFF;
-text-align: justify;
-font-size: 21px;
-`
 export default function Nosotros(){
     return <Layout>
         <Portada>
             <Title>NUESTRA HISTORIA</Title>
         </Portada>
-        <div style={{width:"95%", height: "300px", margin: "10px auto",display:"flex", alignItems: "center", justifyContent: "space-between"}}>
-            <div style={{width:"100%", height: "300px", margin: "10px 10px 10px 0", border: "solid 2px"}}>
-                fotos
-            </div>
-            <div style={{width:"100%", height: "300px", margin: "10px 0 10px 10px", border: "solid 2px"}}>
-                fotos
-            </div>
-        </div>
+        <ImgsWrap>
+            <ImgContainerL>
+                <SubpageImg src="/img/carousel7.jpg"/>
+            </ImgContainerL>
+            <ImgContainerR>
+            <SubpageImg src="/img/carousel8.jpg"/>
+            </ImgContainerR>
+        </ImgsWrap>
         <Historia>
             <div style={{width:"100%", margin: "10px 25px 10px 0"}}>
                 <TextoHistoria>
@@ -60,8 +38,8 @@ export default function Nosotros(){
                 </TextoHistoria>
             </div>
         </Historia>
-        <div style={{width:"95%", height: "300px", margin: "10px auto", border: "solid 2px"}}>
-            fotos
-        </div>
+        <ImgsWrap>
+            <SubpageImg src="/img/carousel10.jpg"/>
+        </ImgsWrap>
     </Layout>
 }

@@ -40,7 +40,7 @@ justify-content: center;
 export const SubpageImg = styled.img`
 width:100%;
 height:100%;
-max-height:270px;
+max-height:300px;
 object-fit: cover;
 `
 export const SolucionesItem = styled.li`
