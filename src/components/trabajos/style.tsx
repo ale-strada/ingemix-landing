@@ -8,7 +8,7 @@ margin: 0 auto;
 padding: 75px;
 `
 export const TrabajosTitulo = styled.h3`
-    font-family: 'Roboto';
-    font-size: 35px;
-    text-align: center;
+font-family: 'Roboto';
+font-size: 35px;
+text-align: center;
 `

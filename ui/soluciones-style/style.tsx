@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SolucionContainer = styled.div`
 width:90%;
-margin: 10px auto;
+margin: 20px auto;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 grid-column-gap: 0px;
@@ -29,7 +29,6 @@ background-color:${props=>props.color};
 display: flex;
 flex-direction: column;
 justify-content: center;
-padding: 10px;
 `
 export const SolucionRigth = styled.div`
 grid-area: 2 / 2 / 3 / 3; 
@@ -37,15 +36,16 @@ background-color:${props=>props.color};
 display: flex;
 flex-direction: column;
 justify-content: center;
-padding: 10px;
 `
 export const SubpageImg = styled.img`
 width:100%;
 height:100%;
+max-height:270px;
+object-fit: cover;
 `
 export const SolucionesItem = styled.li`
 font-family: 'Roboto';
 font-size: 13px;
-margin: 10px;
+margin: 10px 10px 10px 20px;
 color:${props=>props.color}
 `

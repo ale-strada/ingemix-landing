@@ -1,4 +1,12 @@
-import { SolucionContainer, SolucionesItem, SolucionesTitleText, SolucionLeft, SolucionRigth, SolucionTitleConteiner, SubpageImg } from "@/pages/soluciones/style";
+import { 
+    SolucionContainer,
+    SolucionesItem, 
+    SolucionesTitleText, 
+    SolucionLeft, 
+    SolucionRigth, 
+    SolucionTitleConteiner, 
+    SubpageImg 
+} from "../../../ui/soluciones-style/style";
 
 
 export function Ingenieria(){
