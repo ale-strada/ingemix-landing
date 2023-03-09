@@ -35,7 +35,7 @@ export function Mantenimiento(){
                 </PaqueteDeHorasServicioIcon>
                 <PaqueteDeHorasPersonalText>
                     <CaracteristicasItem>
-                        Personal capacitado y especializado para la solucion de cada problema, experiencia en mantenimiento y
+                        Personal capacitado y especializado para la solución de cada problema, experiencia en mantenimiento y
                         gestión del personal. Proveemos personas por hora para distintas actividades: soldadores, montadores, 
                         electricistas, mecánicos. 
                     </CaracteristicasItem>

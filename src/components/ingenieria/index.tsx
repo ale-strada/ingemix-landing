@@ -19,7 +19,7 @@ export function Ingenieria(){
             <SolucionesItem>Desarrollo de ingeniería básica</SolucionesItem>
             <SolucionesItem>Gerenciamiento de proyectos</SolucionesItem>
             <SolucionesItem>Obras civiles y estructuras</SolucionesItem>
-            <SolucionesItem>Elavoracion de ingeniería de detalle constructiva</SolucionesItem>
+            <SolucionesItem>Elaboración de ingeniería de detalle constructiva</SolucionesItem>
         </SolucionLeft>
         <SolucionRigth style={{border: "solid 2px"}}><SubpageImg src="/img/soluciones-ingenieria.png" alt="" /></SolucionRigth>
     </SolucionContainer>
